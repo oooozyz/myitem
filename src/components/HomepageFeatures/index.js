@@ -18,10 +18,10 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        高梦雨 202100130061
-        周昱含 202100130036
-        房博宇 202100130168
-        孙帅   202100130145
+        高梦雨  202100130061               
+        周昱含  202100130036               
+        房博宇  202100130168                 
+        孙帅    202100130145
       </>
     ),
   },
@@ -30,8 +30,8 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        联系邮箱 1055062046@qq.com
-        联系电话 15161227513
+        联系邮箱： 1055062046@qq.com            
+     
       </>
     ),
   },
