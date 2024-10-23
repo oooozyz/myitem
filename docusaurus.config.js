@@ -8,8 +8,8 @@ import {themes as prismThemes} from 'prism-react-renderer';
 
 /** @type {import('@docusaurus/types').Config} */
 const config = {
-  title: 'My Site',
-  tagline: 'Dinosaurs are cool',
+  title: '人机交互',
+  tagline: '人机交互实验项目',
   favicon: 'img/favicon.ico',
 
   // Set the production url of your site here
@@ -27,7 +27,7 @@ const config = {
   projectName: 'myitem', //1111
   deploymentBranch: 'gh-pages',///1111
   
-  
+
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
 
@@ -79,7 +79,7 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: 'Ashore',//改动了名字
         logo: {
           alt: 'My Site Logo',
           src: 'img/logo.svg',
@@ -89,9 +89,9 @@ const config = {
             type: 'docSidebar',
             sidebarId: 'tutorialSidebar',
             position: 'left',
-            label: 'Tutorial',
+            label: 'MyItem',//改动了名字
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
+          //{to: '/blog', label: 'Blog', position: 'left'},
           {
             href: 'https://github.com/facebook/docusaurus',
             label: 'GitHub',
@@ -106,15 +106,16 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
+                //label: 'Tutorial',
+                label: '项目内容',
                 to: '/docs/intro',
               },
             ],
           },
           {
-            title: 'Community',
+            title: '项目宗旨',
             items: [
-              {
+              /*{
                 label: 'Stack Overflow',
                 href: 'https://stackoverflow.com/questions/tagged/docusaurus',
               },
@@ -125,16 +126,20 @@ const config = {
               {
                 label: 'Twitter',
                 href: 'https://twitter.com/docusaurus',
+              },*/
+              {
+                label: '好好学习天天向上',
+                href: 'https://www.sdu.edu.cn/index.html',
               },
             ],
           },
           {
-            title: 'More',
+            title: '其他',
             items: [
-              {
+             /* {
                 label: 'Blog',
                 to: '/blog',
-              },
+              },*/
               {
                 label: 'GitHub',
                 href: 'https://github.com/facebook/docusaurus',
