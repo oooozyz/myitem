@@ -4,32 +4,34 @@ import styles from './styles.module.css';
 
 const FeatureList = [
   {
-    title: 'Easy to Use',
+    title: '项目介绍',
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        Docusaurus was designed from the ground up to be easily installed and
-        used to get your website up and running quickly.
+        巴拉巴拉巴拉
+        巴拉巴拉
       </>
     ),
   },
   {
-    title: 'Focus on What Matters',
+    title: '团队介绍',
     Svg: require('@site/static/img/undraw_docusaurus_tree.svg').default,
     description: (
       <>
-        Docusaurus lets you focus on your docs, and we&apos;ll do the chores. Go
-        ahead and move your docs into the <code>docs</code> directory.
+        高梦雨 202100130061
+        周昱含 202100130036
+        房博宇 202100130168
+        孙帅   202100130145
       </>
     ),
   },
   {
-    title: 'Powered by React',
+    title: '欢迎联系我们',
     Svg: require('@site/static/img/undraw_docusaurus_react.svg').default,
     description: (
       <>
-        Extend or customize your website layout by reusing React. Docusaurus can
-        be extended while reusing the same header and footer.
+        联系邮箱 1055062046@qq.com
+        联系电话 15161227513
       </>
     ),
   },

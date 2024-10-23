@@ -129,7 +129,7 @@ const config = {
               },*/
               {
                 label: '好好学习天天向上',
-                href: 'https://www.sdu.edu.cn/index.html',
+                href: 'https://www.sdu.edu.cn',
               },
             ],
           },
