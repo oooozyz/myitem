@@ -2,56 +2,131 @@
 sidebar_position: 2
 ---
 
-# Create a Document
+# Survey
 
-Documents are **groups of pages** connected through:
+**大学生毕业去向调查问卷**
 
-- a **sidebar**
-- **previous/next navigation**
-- **versioning**
+Q1. 您的毕业去向是什么？
+|                |
+|----------------|
+|〇 考研            |
+|〇 求职           |
+|〇 创业          |
+|〇 其他（请填写）________            |
 
-## Create your first Doc
+Q2.您认为应届大学生发展前景如何？
+||
+|----|
+〇 好
+〇 一般
+〇 不好
+〇 不知道
 
-Create a Markdown file at `docs/hello.md`:
+Q3.您何时确定好的毕业去向？
+||
+|----|
+〇大学之前
+〇大一大二
+〇大三大四
+〇还没确定好
 
-```md title="docs/hello.md"
-# Hello
+Q4.对于未来的发展目标，您更看重哪一项？
+||
+|----|
+〇收入
+〇城市
+〇专业贴合
+〇轻松
+〇其他（请填写）_______
 
-This is my **first Docusaurus document**!
-```
+Q5.您期望未来的月薪是？
+||
+|----|
+〇5k以下
+〇5k到10k
+〇10k到20k
+〇20k以上
 
-A new document is now available at [http://localhost:3000/docs/hello](http://localhost:3000/docs/hello).
+Q6.您所属的专业是？
+||
+|----|
+〇工科
+〇理科
+〇文科
+〇其他（请填写）_______
 
-## Configure the Sidebar
+Q7.您期望自己的学历达到？
+||
+|----|
+〇本科
+〇硕士
+〇博士
+〇其他（请填写）_______
 
-Docusaurus automatically **creates a sidebar** from the `docs` folder.
+Q8.您对自己的专业满意程度是？
+||
+|----|
+〇满意
+〇一般
+〇不满意
+〇无所谓
 
-Add metadata to customize the sidebar label and position:
+Q9.影响您选择毕业去向的因素有？
+||
+|----|
+□家庭背景
+□兴趣爱好
+□自身能力
+□薪酬福利
+□他人影响
 
-```md title="docs/hello.md" {1-4}
----
-sidebar_label: 'Hi!'
-sidebar_position: 3
----
+Q10.您认为毕业前您需要培养哪些方面的能力？
+||
+|----|
+□学习能力
+□社会经验
+□专业能力
+□人际交往能力
 
-# Hello
+Q11.您认为考研的目的是？
+||
+|----|
+□学术研究
+□提升学历
+□家人要求
+□个人兴趣
+□躲避求职
 
-This is my **first Docusaurus document**!
-```
+Q12.您认为读研对以后的就业有多大帮助？
+||
+|----|
+〇很大
+〇一般
+〇很少
+〇不知道
 
-It is also possible to create your sidebar explicitly in `sidebars.js`:
+Q13.未来希望去哪类城市？
+||
+|----|
+〇家乡
+〇学校所在地
+〇发达城市
+〇二三线城市
+〇其他地区
 
-```js title="sidebars.js"
-export default {
-  tutorialSidebar: [
-    'intro',
-    // highlight-next-line
-    'hello',
-    {
-      type: 'category',
-      label: 'Tutorial',
-      items: ['tutorial-basics/create-a-document'],
-    },
-  ],
-};
-```
+Q14.您认为项目及实习经历是否重要？
+||
+|----|
+〇重要
+〇一般
+〇不重要
+〇不知道
+
+Q15.您周围有创业意向的人有多少？
+||
+|----|
+〇很多
+〇一般
+〇很少
+〇没有
+〇不知道

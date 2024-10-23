@@ -8,8 +8,9 @@ const FeatureList = [
     Svg: require('@site/static/img/undraw_docusaurus_mountain.svg').default,
     description: (
       <>
-        巴拉巴拉巴拉
-        巴拉巴拉
+        毕业生就业帮助中心，通过访谈和调查两种问卷形式对毕业生的发展去向做调查，
+        了解当前毕业生发展趋势。
+        并通过这些数据帮助毕业生做出更加合适的选择。
       </>
     ),
   },
